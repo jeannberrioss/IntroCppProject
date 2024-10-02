@@ -52,7 +52,6 @@ int main() {
    cout << "This is the address of the pointer var itself: " << &ptrpow << endl;
    cout << "\n ";
 
-
    return 0;
 
 
