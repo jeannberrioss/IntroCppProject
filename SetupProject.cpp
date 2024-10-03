@@ -50,7 +50,9 @@ int main() {
    cout << "This is the direct address of kjPOW: " << &kjPOW << endl;
    cout << "This is the pointer address of kjPOW: " << ptrpow << endl;
    cout << "This is the address of the pointer var itself: " << &ptrpow << endl;
-   cout << "\n ";
+   cout << "\n";
+
+   cout << "This is my name!!" << endl;
 
    return 0;
 
