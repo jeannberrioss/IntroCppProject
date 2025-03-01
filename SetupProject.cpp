@@ -45,8 +45,7 @@ int main() {
    cout << "These is your average: " << avgFloat << endl;
    
    cout << fixed << setprecision(1) << endl;
-   cout << "Here is pow function to the power of 3 = " << pow(kjPOW, 3) << endl;
-   cout << "\n" << endl;
+   cout << "Here is pow function to the power of 3 = " << pow(kjPOW, 3);
 
    cout << "This is the direct address of kjPOW: " << &kjPOW << endl;
    cout << "This is the pointer address of kjPOW: " << ptrpow << endl;
