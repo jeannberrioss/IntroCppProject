@@ -4,9 +4,10 @@
 using namespace std;
 
 void _helloBro() {
+         cout << "This is a function outside of main - isn't this a cool mathemtically logical process? Easy!" << endl;
+         cout << "\n";
          cout << "Jean! pick 4 numbers below -" << endl;
          cout << "\n";
-         cout << "This is a function outside of main - isn't this a cool mathemtically logical process? Easy!" << endl;
 }
 
 int main() {
@@ -45,7 +46,8 @@ int main() {
    cout << "These is your average: " << avgFloat << endl;
    
    cout << fixed << setprecision(1) << endl;
-   cout << "Here is pow function to the power of 3 = " << pow(kjPOW, 3);
+   cout << "Here is pow function to the power of 3 = " << pow(kjPOW, 3) << endl;
+   cout << "Here is pow function to the power of 3 using ptr var = " << pow(*ptrpow, 3) << endl;
 
    cout << "This is the direct address of kjPOW: " << &kjPOW << endl;
    cout << "This is the pointer address of kjPOW: " << ptrpow << endl;
