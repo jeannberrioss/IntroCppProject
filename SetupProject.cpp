@@ -3,7 +3,8 @@
 #include <cmath>
 using namespace std;
 
-int RandomCalculation(int ox, int oy, int oz) {
+int RandomCalculation() {
+   int ox, oy, oz;
 
    cout << "|| This is the #1 func() called from outside main ||" << endl;
    cout << "\n";
@@ -34,7 +35,7 @@ int main() {
 
    cout << "\n";
 
-   int result = RandomCalculation(n1, n2, n3);
+   int result = RandomCalculation();
    cout << "The result of the random calculation is " << result << endl;
    cout << "\n";
 
