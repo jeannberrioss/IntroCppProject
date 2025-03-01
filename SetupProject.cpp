@@ -22,14 +22,18 @@ int RandomCalculation(int ox, int oy, int oz) {
 
 int main() {
 
+   /* Generic Variable Declarations */
+
    int num1,num2,num3,num4,multi, avg;
    double multiFloat, avgFloat;
+   int n1, n2, n3;
    int kjPOW = 2;
    int *ptrpow = &kjPOW;
 
    cout << "\n";
 
-   RandomCalculation(num1, num2, num3);
+   int result = RandomCalculation(n1, n2, n3);
+   cout << "The result of the random calculation is: " << result << endl;
 
    _helloBro();
 
