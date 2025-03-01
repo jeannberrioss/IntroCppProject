@@ -6,6 +6,7 @@ using namespace std;
 void _helloBro() {
          cout << "Jean! pick 4 numbers below -" << endl;
          cout << "\n";
+         cout << "This is a function outside of main - isn't this a cool mathemtically logical process? Easy!" << endl;
 }
 
 int main() {
@@ -45,6 +46,7 @@ int main() {
    
    cout << fixed << setprecision(1) << endl;
    cout << "Here is pow function to the power of 3 = " << pow(kjPOW, 3) << endl;
+   cout << "\n" << endl;
 
    cout << "This is the direct address of kjPOW: " << &kjPOW << endl;
    cout << "This is the pointer address of kjPOW: " << ptrpow << endl;
