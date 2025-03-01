@@ -45,11 +45,11 @@ int main() {
    
    cout << fixed << setprecision(1) << endl;
    cout << "Here is pow function to the power of 3 = " << pow(kjPOW, 3) << endl;
-   cout << "\n" << endl;
 
    cout << "This is the direct address of kjPOW: " << &kjPOW << endl;
    cout << "This is the pointer address of kjPOW: " << ptrpow << endl;
    cout << "This is the address of the pointer var itself: " << &ptrpow << endl;
+   cout << "This is the value held within the pointer variable: " << *ptrpow << endl;
    cout << "\n";
 
    cout << "This is my name!!" << endl;
