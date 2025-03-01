@@ -6,6 +6,7 @@ using namespace std;
 int RandomCalculation(int ox, int oy, int oz) {
 
    cout << "|| This is the #1 func() called from outside main ||" << endl;
+   cout << "\n";
    cout << "Random calculation..What are your 3 numbers = ";
    cin >> ox >> oy >> oz;
    cout << "\n";
