@@ -4,10 +4,20 @@
 using namespace std;
 
 void _helloBro() {
+
          cout << "This is a function outside of main - isn't this a cool mathemtically logical process? Easy!" << endl;
          cout << "\n";
          cout << "Jean! pick 4 numbers below -" << endl;
          cout << "\n";
+}
+
+int RandomCalculation(int ox, int oy, int oz) {
+
+   cout << "This is a random calculation function - What are your 3 numbers?";
+   cin >> ox >> oy >> oz;
+   cout << "\n";
+
+   return ox * oy * oz;
 }
 
 int main() {
@@ -18,6 +28,8 @@ int main() {
    int *ptrpow = &kjPOW;
 
    cout << "\n";
+
+   RandomCalculation(num1, num2, num3);
 
    _helloBro();
 
