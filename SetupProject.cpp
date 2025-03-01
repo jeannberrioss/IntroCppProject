@@ -13,7 +13,7 @@ void _helloBro() {
 
 int RandomCalculation(int ox, int oy, int oz) {
 
-   cout << "This is a random calculation function - What are your 3 numbers?";
+   cout << " || This is a random calculation function - What are your 3 numbers =";
    cin >> ox >> oy >> oz;
    cout << "\n";
 
@@ -26,7 +26,7 @@ int main() {
 
    int num1,num2,num3,num4,multi, avg;
    double multiFloat, avgFloat;
-   int n1, n2, n3;
+   int n1, n2, n3; // utilized for RandomCalculation function outside of MAIN();
    int kjPOW = 2;
    int *ptrpow = &kjPOW;
 
@@ -34,6 +34,7 @@ int main() {
 
    int result = RandomCalculation(n1, n2, n3);
    cout << "The result of the random calculation is: " << result << endl;
+   cout << "\n";
 
    _helloBro();
 
