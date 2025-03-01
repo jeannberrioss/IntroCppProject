@@ -55,7 +55,7 @@ int main() {
    cout << "This is the value held within the pointer variable: " << *ptrpow << endl;
    cout << "\n";
 
-   cout << "This is my name!!" << endl;
+   cout << "This is my name in C++" << endl;
    cout << "\n";
 
    return 0;
