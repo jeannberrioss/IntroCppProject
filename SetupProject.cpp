@@ -12,7 +12,7 @@ int RandomCalculation() {
    cout << "|| This is the #1 func() called from outside main ||" << endl;
    cout << "\n";
 
-   while (!validInput) {
+   while (!validInput) { // this WHILE condition evaluates to TRUE
        cout << "Random calculation..What are your 3 numbers = ";
        getline(cin, input);
        stringstream ss(input);
